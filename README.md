@@ -2,6 +2,12 @@
 
 Ứng dụng web đơn giản giúp sinh viên xem kết quả học tập và dự kiến điểm số để tính toán GPA tương lai.
 
+## 🌐 Demo trực tuyến
+
+**🚀 [Truy cập ứng dụng tại đây](https://tain03.github.io/DuKienDiem/)**
+
+> Ứng dụng được deploy tự động lên GitHub Pages mỗi khi có commit mới.
+
 ## ✨ Tính năng chính
 
 ### 📋 Hiển thị kết quả học tập
@@ -144,6 +150,29 @@ File điểm cần có cấu trúc JSON như sau:
 
 ![Prediction Mode](screenshots/prediction-mode.png)
 *Chế độ dự kiến điểm*
+
+## 🚀 Deploy lên GitHub Pages
+
+### **Tự động deploy:**
+Ứng dụng được deploy tự động mỗi khi push code lên branch `main` thông qua GitHub Actions.
+
+### **Cách setup GitHub Pages:**
+
+1. **Vào Settings của repository**
+2. **Scroll xuống phần "Pages"**
+3. **Source**: Chọn "GitHub Actions"
+4. **Workflow**: Sử dụng file `.github/workflows/deploy.yml` có sẵn
+5. **Save** và đợi deploy hoàn tất
+
+### **URL truy cập:**
+```
+https://[username].github.io/DuKienDiem/
+```
+
+### **Kiểm tra trạng thái deploy:**
+- Vào tab **"Actions"** trong repository
+- Xem workflow **"Deploy to GitHub Pages"**
+- Màu xanh = thành công, màu đỏ = lỗi
 
 ## 🤝 Đóng góp
 
