@@ -48,10 +48,43 @@ cd DuKienDiem
 - Mở file `index.html` bằng trình duyệt web
 - Hoặc sử dụng Live Server nếu có VS Code
 
-### 3. Import dữ liệu điểm
+### 3. Lấy dữ liệu điểm từ hệ thống
+
+#### 📋 **Hướng dẫn chi tiết:**
+
+**Bước 1:** Truy cập vào giao diện xem điểm của trường
+- Đăng nhập vào hệ thống quản lý học tập
+- Vào trang xem kết quả học tập/bảng điểm
+
+**Bước 2:** Mở Developer Tools
+- Nhấn phím `F12` hoặc `Ctrl + Shift + I`
+- Chuyển sang tab **"Network"**
+
+**Bước 3:** Tìm request API
+- Refresh trang hoặc thực hiện thao tác load điểm
+- Tìm request có tên tương tự như trong ảnh `request.png`
+- Thường là request có chứa từ khóa: `diem`, `score`, `grade`, `result`
+
+![Request Example](screenshots/request.png)
+
+**Bước 4:** Copy response data
+- Click vào request đã tìm được
+- Chuyển sang tab **"Response"**
+- Copy toàn bộ nội dung JSON như trong ảnh `response.png`
+- Lưu vào file `.txt` trước
+
+![Response Example](screenshots/response.png)
+
+**Bước 5:** Chuyển đổi định dạng
+- Đổi tên file từ `.txt` thành `.json`
+- Hoặc tạo file mới với đuôi `.json`
+
+**Bước 6:** Import vào ứng dụng
 - Click nút "📁 Import file điểm"
-- Chọn file `.json` hoặc `.js` chứa dữ liệu điểm
+- Chọn file `.json` vừa tạo
 - Ứng dụng sẽ tự động load và hiển thị
+
+> 📖 **[Xem hướng dẫn chi tiết với ảnh minh họa](HUONG-DAN-LAY-DU-LIEU.md)**
 
 ### 4. Dự kiến điểm
 1. Bật "Chế độ dự kiến điểm"
