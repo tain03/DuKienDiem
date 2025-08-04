@@ -182,36 +182,7 @@ A: Không! Tất cả dữ liệu chỉ được xử lý trên trình duyệt c
 ### **Q: Có thể thêm hỗ trợ cho trường khác không?**
 A: Có! Tạo issue với mẫu dữ liệu của trường bạn, chúng tôi sẽ hỗ trợ thêm tương thích.
 
-## 🎨 Screenshots
 
-![Main Interface](screenshots/main-interface.png)
-*Giao diện chính hiển thị bảng điểm*
-
-![Prediction Mode](screenshots/prediction-mode.png)
-*Chế độ dự kiến điểm*
-
-## 🚀 Deploy lên GitHub Pages
-
-### **Tự động deploy:**
-Ứng dụng được deploy tự động mỗi khi push code lên branch `main` thông qua GitHub Actions.
-
-### **Cách setup GitHub Pages:**
-
-1. **Vào Settings của repository**
-2. **Scroll xuống phần "Pages"**
-3. **Source**: Chọn "GitHub Actions"
-4. **Workflow**: Sử dụng file `.github/workflows/deploy.yml` có sẵn
-5. **Save** và đợi deploy hoàn tất
-
-### **URL truy cập:**
-```
-https://[username].github.io/DuKienDiem/
-```
-
-### **Kiểm tra trạng thái deploy:**
-- Vào tab **"Actions"** trong repository
-- Xem workflow **"Deploy to GitHub Pages"**
-- Màu xanh = thành công, màu đỏ = lỗi
 
 ## 🤝 Đóng góp
 
