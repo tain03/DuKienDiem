@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả học tập - Dự kiến điểm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kết quả học tập</h1>
+            <div class="header-controls">
+                <div class="import-section">
+                    <button id="import-btn" class="import-button">
+                        📁 Import file điểm
+                    </button>
+                    <input type="file" id="file-input" accept=".js,.json" style="display: none;">
+                    <div class="file-info" id="file-info" style="display: none;">
+                        <span id="current-file">Chưa có file</span>
+                        <button id="clear-file" class="clear-btn">✕</button>
+                    </div>
+                </div>
+            </div>
+            <div class="summary-info">
+                <div class="gpa-info">
+                    <span>Điểm TB tích lũy (10): <strong id="current-gpa-10">0.00</strong></span>
+                    <span>Điểm TB tích lũy (4): <strong id="current-gpa-4">0.00</strong></span>
+                    <span>Tổng tín chỉ đạt: <strong id="total-credits">0</strong></span>
+                </div>
+                <div class="prediction-mode">
+                    <label>
+                        <input type="checkbox" id="prediction-toggle"> Chế độ dự kiến điểm
+                    </label>
+                    <button id="reset-prediction" style="display: none;">Khôi phục điểm gốc</button>
+                    <div class="prediction-help" id="prediction-help" style="display: none;">
+                        <small>💡 Click vào cột "Điểm TK (10)" để dự kiến điểm cho bất kỳ môn học nào</small>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="semester-tabs">
+            <div id="semester-buttons"></div>
+        </div>
+
+        <div class="table-container">
+            <table id="scores-table">
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Mã MH</th>
+                        <th>Nhóm/tổ môn học</th>
+                        <th>Tên môn học</th>
+                        <th>Số tín chỉ</th>
+                        <th>Điểm thi</th>
+                        <th>Điểm TK (10)</th>
+                        <th>Điểm TK (4)</th>
+                        <th>Điểm TK (C)</th>
+                        <th>Kết quả</th>
+                        <th>Chi tiết</th>
+                    </tr>
+                </thead>
+                <tbody id="scores-tbody">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="semester-summary">
+            <div class="summary-card">
+                <h3>Thống kê học kỳ</h3>
+                <div id="semester-stats"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal chi tiết điểm -->
+    <div id="detail-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Chi tiết điểm thành phần</h3>
+            <div id="detail-content"></div>
+        </div>
+    </div>
+
+    <!-- Modal dự kiến điểm -->
+    <div id="prediction-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Dự kiến điểm</h3>
+            <div id="prediction-content">
+                <div class="prediction-form">
+                    <label for="new-score">Điểm dự kiến (thang 10):</label>
+                    <input type="number" id="new-score" min="0" max="10" step="0.1" placeholder="Nhập điểm 0-10">
+                    <button id="apply-prediction">Áp dụng</button>
+                </div>
+                <div class="prediction-note">
+                    <small>💡 Để trống và nhấn "Áp dụng" để xóa dự kiến điểm</small><br>
+                    <small>📋 Điểm >= 4.0 được tính là ĐẠT môn học</small>
+                </div>
+                <div class="grade-scale">
+                    <details>
+                        <summary>📊 Xem thang điểm chi tiết</summary>
+                        <table class="scale-table">
+                            <thead>
+                                <tr>
+                                    <th>Thang 10</th>
+                                    <th>Điểm chữ</th>
+                                    <th>Thang 4</th>
+                                    <th>Kết quả</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>9.0 - 10.0</td><td>A+</td><td>4.0</td><td>Đạt</td></tr>
+                                <tr><td>8.5 - 8.9</td><td>A</td><td>3.7</td><td>Đạt</td></tr>
+                                <tr><td>8.0 - 8.4</td><td>B+</td><td>3.5</td><td>Đạt</td></tr>
+                                <tr><td>7.0 - 7.9</td><td>B</td><td>3.0</td><td>Đạt</td></tr>
+                                <tr><td>6.5 - 6.9</td><td>C+</td><td>2.5</td><td>Đạt</td></tr>
+                                <tr><td>5.5 - 6.4</td><td>C</td><td>2.0</td><td>Đạt</td></tr>
+                                <tr><td>5.0 - 5.4</td><td>D+</td><td>1.5</td><td>Đạt</td></tr>
+                                <tr><td>4.0 - 4.9</td><td>D</td><td>1.0</td><td>Đạt</td></tr>
+                                <tr class="fail-grade"><td>< 4.0</td><td>F</td><td>0.0</td><td>Không đạt</td></tr>
+                            </tbody>
+                        </table>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
