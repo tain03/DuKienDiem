@@ -2,6 +2,14 @@
 
 Ứng dụng web đơn giản giúp sinh viên xem kết quả học tập và dự kiến điểm số để tính toán GPA tương lai.
 
+## 🎓 Đối tượng sử dụng
+
+**🏫 Dành cho sinh viên:**
+- **Học viện Công nghệ Bưu chính Viễn thông (PTIT)** - Hỗ trợ đầy đủ
+- **Các trường đại học khác** có hệ thống QLDT tương tự với cấu trúc dữ liệu JSON
+
+> **Lưu ý**: Ứng dụng được thiết kế dựa trên cấu trúc dữ liệu của hệ thống QLDT PTIT, nhưng có thể tương thích với các trường khác nếu có format dữ liệu tương tự.
+
 ## 🌐 Demo trực tuyến
 
 **🚀 [Truy cập ứng dụng tại đây](https://tain03.github.io/DuKienDiem/)**
@@ -98,9 +106,26 @@ cd DuKienDiem
 3. Nhập điểm dự kiến (0-10)
 4. Xem kết quả GPA mới ngay lập tức
 
+## 🏫 Tương thích với các trường
+
+### **✅ Đã test và hoạt động:**
+- **PTIT (Học viện Công nghệ Bưu chính Viễn thông)** - 100% tương thích
+
+### **🔄 Có thể tương thích:**
+Các trường có hệ thống QLDT với cấu trúc dữ liệu tương tự:
+- **UET (Đại học Công nghệ - ĐHQGHN)**
+- **HUST (Đại học Bách khoa Hà Nội)**
+- **NEU (Đại học Kinh tế Quốc dân)**
+- **Các trường khác** sử dụng hệ thống quản lý tương tự
+
+### **🛠️ Cách kiểm tra tương thích:**
+1. Làm theo hướng dẫn lấy dữ liệu
+2. Kiểm tra cấu trúc JSON có giống mẫu dưới không
+3. Nếu khác biệt, có thể cần chỉnh sửa nhỏ
+
 ## 📁 Cấu trúc dữ liệu
 
-File điểm cần có cấu trúc JSON như sau:
+File điểm cần có cấu trúc JSON như sau (dựa trên hệ thống PTIT):
 
 ```json
 {
@@ -142,6 +167,20 @@ File điểm cần có cấu trúc JSON như sau:
 - Tương thích với desktop, tablet và mobile
 - Giao diện thân thiện, dễ sử dụng
 - Dark/Light theme tự động theo hệ thống
+
+## ❓ FAQ - Câu hỏi thường gặp
+
+### **Q: Tôi không phải sinh viên PTIT, có dùng được không?**
+A: Có thể! Nếu trường bạn có hệ thống QLDT với cấu trúc dữ liệu JSON tương tự, ứng dụng sẽ hoạt động bình thường.
+
+### **Q: Làm sao biết trường mình có tương thích không?**
+A: Thử làm theo hướng dẫn lấy dữ liệu. Nếu response có cấu trúc `data.ds_diem_hocky` thì có thể sử dụng.
+
+### **Q: Dữ liệu có bị lưu trữ ở đâu không?**
+A: Không! Tất cả dữ liệu chỉ được xử lý trên trình duyệt của bạn, không gửi lên server nào.
+
+### **Q: Có thể thêm hỗ trợ cho trường khác không?**
+A: Có! Tạo issue với mẫu dữ liệu của trường bạn, chúng tôi sẽ hỗ trợ thêm tương thích.
 
 ## 🎨 Screenshots
 
@@ -189,12 +228,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## 👨‍💻 Tác giả
 
 **Nguyễn Đức Tài** - [@tain03](https://github.com/tain03)
+- 🎓 Sinh viên PTIT (Học viện Công nghệ Bưu chính Viễn thông)
+- 💻 Chuyên ngành: Công nghệ thông tin
 
 ## 🙏 Acknowledgments
 
-- Cảm ơn các bạn sinh viên đã đóng góp ý kiến
-- Inspired by academic management systems
-- Built with ❤️ for Vietnamese students
+- Cảm ơn các bạn sinh viên PTIT đã đóng góp ý kiến và test ứng dụng
+- Inspired by PTIT's academic management system
+- Built with ❤️ for Vietnamese students, especially PTITers
+- Special thanks to PTIT's QLDT system for data structure reference
 
 ---
 

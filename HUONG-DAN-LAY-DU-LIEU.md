@@ -3,9 +3,23 @@
 ## 🎯 Mục đích
 Hướng dẫn này giúp bạn lấy dữ liệu điểm từ hệ thống quản lý học tập của trường để sử dụng với ứng dụng **Dự Kiến Điểm**.
 
+## 🏫 Áp dụng cho
+- **PTIT (Học viện Công nghệ Bưu chính Viễn thông)** - Hỗ trợ đầy đủ
+- **Các trường khác** có hệ thống QLDT tương tự với cấu trúc JSON
+
+> **Lưu ý**: Hướng dẫn này được viết dựa trên hệ thống QLDT của PTIT, nhưng có thể áp dụng cho các trường khác có cấu trúc tương tự.
+
 ## 📋 Các bước thực hiện
 
 ### **Bước 1: Truy cập vào giao diện xem điểm**
+
+#### **Đối với sinh viên PTIT:**
+1. Truy cập: https://qldt.ptit.edu.vn/
+2. Đăng nhập bằng tài khoản sinh viên
+3. Vào menu **"Kết quả học tập"** → **"Kết quả học tập"**
+4. Chọn **"Tất cả"** để hiển thị điểm tất cả học kỳ
+
+#### **Đối với sinh viên trường khác:**
 1. Đăng nhập vào hệ thống quản lý học tập của trường
 2. Điều hướng đến trang **"Kết quả học tập"** hoặc **"Bảng điểm"**
 3. Đảm bảo trang đã load đầy đủ thông tin điểm
