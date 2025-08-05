@@ -1,0 +1,1979 @@
+{
+    "data": {
+        "total_items": 51,
+        "total_pages": 1,
+        "is_xem_tai_lieu": false,
+        "is_show_nhomtc": false,
+        "is_view_sodo": false,
+        "tong_sotc_ctdt": 0.0,
+        "tong_sotctl": 0.0,
+        "message_tong_tiet": "Tổng tiết",
+        "is_show_tiettp": true,
+        "so_tc_phai_dat": 0.0,
+        "url_hoc_lieu_chi_tiet": "",
+        "bearer_token": "",
+        "ds_nganh_sinh_vien": [
+            {
+                "loai_nganh": 1,
+                "ma_nganh": "E7480201",
+                "ten_nganh": "Công nghệ thông tin (CLC)"
+            }
+        ],
+        "ds_chuyen_nganh_sv": [],
+        "ds_CTDT_hocky": [
+            {
+                "hoc_ky": "20211",
+                "ten_hoc_ky": "Học kỳ 1 - Năm học 2021 - 2022",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-8758752905453472331",
+                        "ma_mon": "BAS1107",
+                        "ten_mon": "Giáo dục thể chất 2",
+                        "ten_mon_eg": "Physical Education 2",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "2",
+                        "thuc_hanh": "26",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "                                                                                                                                                                                                                                                              ",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "26"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "2"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "2"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6222701511583555854",
+                        "ma_mon": "BAS1164_CLC",
+                        "ten_mon": "Tiếng Anh (Course 3_CLC)",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "8",
+                        "so_tin_chi_hp": "8",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "120",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "120",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "120"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5443362493491760107",
+                        "ma_mon": "BAS1105M",
+                        "ten_mon": "Giáo dục quốc phòng",
+                        "ten_mon_eg": "National Defense Education",
+                        "so_tin_chi": "7.5",
+                        "so_tin_chi_hp": "7.5",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5385203349364739147",
+                        "ma_mon": "BAS1106",
+                        "ten_mon": "Giáo dục thể chất 1",
+                        "ten_mon_eg": "Physical Education 1",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "2",
+                        "thuc_hanh": "26",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "                                                                                                                                                                                                                                                              ",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "26"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "2"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "2"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6554185867054703178",
+                        "ma_mon": "BAS1201_CLC",
+                        "ten_mon": "Đại số",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6452241396037816847",
+                        "ma_mon": "BAS1162_CLC",
+                        "ten_mon": "Tiếng Anh (Course 1_CLC)",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "8",
+                        "so_tin_chi_hp": "8",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "120",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "120",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "120"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5304562265179206123",
+                        "ma_mon": "INT11117_CLC",
+                        "ten_mon": "Nhập môn tin học và lập trình",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "30",
+                        "thuc_hanh": "7",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "7"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "30"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5473991641223891218",
+                        "ma_mon": "BAS1203_CLC",
+                        "ten_mon": "Giải tích 1",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20212",
+                "ten_hoc_ky": "Học kỳ 2 - Năm học 2021 - 2022",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5606206078338157343",
+                        "ma_mon": "BAS1204_CLC",
+                        "ten_mon": "Giải tích 2",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5675894656335320157",
+                        "ma_mon": "BAS1163_CLC",
+                        "ten_mon": "Tiếng Anh (Course 2_CLC)",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "8",
+                        "so_tin_chi_hp": "8",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "120",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "120",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "120"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6022712660475088884",
+                        "ma_mon": "INT1339_CLC",
+                        "ten_mon": "Ngôn ngữ lập trình C++",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "30",
+                        "thuc_hanh": "7",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "7"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "30"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7646096768306703817",
+                        "ma_mon": "BAS1224_CLC",
+                        "ten_mon": "Vật lý 1 và thí nghiệm",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "4",
+                        "so_tin_chi_hp": "4",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "42",
+                        "thuc_hanh": "8",
+                        "tong_tiet": "60",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "42"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "4"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20221",
+                "ten_hoc_ky": "Học kỳ 1 - Năm học 2022 - 2023",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5270484504957990936",
+                        "ma_mon": "BAS1227_CLC",
+                        "ten_mon": "Vật lý 3 và thí nghiệm",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "4",
+                        "so_tin_chi_hp": "4",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "4",
+                        "tong_tiet": "60",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "4"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "12"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6222701511583555854",
+                        "ma_mon": "BAS1164_CLC",
+                        "ten_mon": "Tiếng Anh (Course 3_CLC)",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "8",
+                        "so_tin_chi_hp": "8",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "120",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "120",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "120"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-8177425063366170933",
+                        "ma_mon": "INT1306_CLC",
+                        "ten_mon": "Cấu trúc dữ liệu và giải thuật",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "30",
+                        "thuc_hanh": "7",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "7"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "30"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-4925151517494275313",
+                        "ma_mon": "INT1358_CLC",
+                        "ten_mon": "Toán rời rạc 1",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6204546437583296948",
+                        "ma_mon": "SKD1102",
+                        "ten_mon": "Kỹ năng làm việc nhóm",
+                        "ten_mon_eg": "Teamwork skills",
+                        "so_tin_chi": "1",
+                        "so_tin_chi_hp": "1",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "6",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "15",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "                                                                                                                                                                                                                                                              ",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20222",
+                "ten_hoc_ky": "Học kỳ 2 - Năm học 2022 - 2023",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-4951181180909921240",
+                        "ma_mon": "INT13145_CLC",
+                        "ten_mon": "Kiến trúc máy tính",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "30",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "30"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "15"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-8811579425408203077",
+                        "ma_mon": "ELE1309_CLC",
+                        "ten_mon": "Điện tử số",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "32",
+                        "thuc_hanh": "4",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "4"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "32"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7664203872546753042",
+                        "ma_mon": "SKD1108",
+                        "ten_mon": "Phương pháp luận nghiên cứu khoa học",
+                        "ten_mon_eg": "Scientific research methodology",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "18",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "                                                                                                                                                                                                                                                              ",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "18"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7073731741616881880",
+                        "ma_mon": "SKD1103",
+                        "ten_mon": "Kỹ năng tạo lập Văn bản",
+                        "ten_mon_eg": "Documentation creation skills",
+                        "so_tin_chi": "1",
+                        "so_tin_chi_hp": "1",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "6",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "15",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "                                                                                                                                                                                                                                                              ",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5052449052157962261",
+                        "ma_mon": "INT1359_CLC",
+                        "ten_mon": "Toán rời rạc 2",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6006974820119538594",
+                        "ma_mon": "BAS1226_CLC",
+                        "ten_mon": "Xác suất thống kê",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5378240443496231954",
+                        "ma_mon": "BAS1150",
+                        "ten_mon": "Triết học Mác - Lênin",
+                        "ten_mon_eg": "Marxist - Leninist philosophy",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "34",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "34"
+                            },
+                            {
+                                "ten_thanh_phan": "Thảo luận",
+                                "so_tiet": "10"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20231",
+                "ten_hoc_ky": "Học kỳ 1 - Năm học 2023 - 2024",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6251279473272859831",
+                        "ma_mon": "INT1319_CLC",
+                        "ten_mon": "Hệ điều hành",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "34",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "34"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "10"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-4678818796978374635",
+                        "ma_mon": "INT1330_CLC",
+                        "ten_mon": "Kỹ thuật vi xử lý",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6921862805365240246",
+                        "ma_mon": "INT1332_CLC",
+                        "ten_mon": "Lập trình hướng đối tượng",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "30",
+                        "thuc_hanh": "7",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "7"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "30"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-4806677384613755521",
+                        "ma_mon": "INT1313_CLC",
+                        "ten_mon": "Cơ sở dữ liệu",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "32",
+                        "thuc_hanh": "4",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "9"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "4"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "32"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6454151390607445176",
+                        "ma_mon": "BAS1151",
+                        "ten_mon": "Kinh tế chính trị Mác- Lênin",
+                        "ten_mon_eg": "Marxist - Leninist political economy",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "24",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Thảo luận",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "24"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-8494809851496242191",
+                        "ma_mon": "INT1336_CLC",
+                        "ten_mon": "Mạng máy tính",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "36",
+                        "thuc_hanh": "4",
+                        "tong_tiet": "45",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "5"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "4"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "36"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20232",
+                "ten_hoc_ky": "Học kỳ 2 - Năm học 2023 - 2024",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7385894715607289582",
+                        "ma_mon": "SKD1101",
+                        "ten_mon": "Kỹ năng thuyết trình",
+                        "ten_mon_eg": "Presentations skills",
+                        "so_tin_chi": "1",
+                        "so_tin_chi_hp": "1",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "6",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "15",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "                                                                                                                                                                                                                                                              ",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "8"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "1"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7523656812398707442",
+                        "ma_mon": "INT1434_CLC",
+                        "ten_mon": "Lập trình web",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-4837640937552378657",
+                        "ma_mon": "BAS1152",
+                        "ten_mon": "Chủ nghĩa xã hội khoa học",
+                        "ten_mon_eg": "Socialism",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "24",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Thảo luận",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "24"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-8086703081971487782",
+                        "ma_mon": "INT1472_CLC",
+                        "ten_mon": "Cơ sở an toàn thông tin",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6751779029689555340",
+                        "ma_mon": "INT1340_CLC",
+                        "ten_mon": "Nhập môn CNPM",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5957518967226919834",
+                        "ma_mon": "INT1341_CLC",
+                        "ten_mon": "Nhập môn trí tuệ nhân tạo",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-9069057024940504085",
+                        "ma_mon": "INT1414_CLC",
+                        "ten_mon": "Cơ sở dữ liệu phân tán",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20241",
+                "ten_hoc_ky": "Học kỳ 1 - Năm học 2024 - 2025",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-8781065220043941410",
+                        "ma_mon": "INT1449_CLC",
+                        "ten_mon": "Phát triển ứng dụng cho các thiết bị di động",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7625008259055818718",
+                        "ma_mon": "INT13147_CLC",
+                        "ten_mon": "Thực tập cơ sở",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "4",
+                        "so_tin_chi_hp": "4",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7284230295469811066",
+                        "ma_mon": "INT1342_CLC",
+                        "ten_mon": "Phân tích và thiết kế HTTT",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5572619603069923198",
+                        "ma_mon": "INT1450_CLC",
+                        "ten_mon": "Quản lý dự án phần mềm",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6231126500499165905",
+                        "ma_mon": "INT1433_CLC",
+                        "ten_mon": "Lập trình mạng",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7291339165555194461",
+                        "ma_mon": "BAS1122",
+                        "ten_mon": "Tư tưởng Hồ Chí Minh",
+                        "ten_mon_eg": "Ho Chi Minh's Ideology",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "24",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "x",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Thảo luận",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "24"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20242",
+                "ten_hoc_ky": "Học kỳ 2 - Năm học 2024 - 2025",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7156303995827570675",
+                        "ma_mon": "INT1461_CLC",
+                        "ten_mon": "Xây dựng các hệ thống nhúng",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5195133707397383765",
+                        "ma_mon": "INT1416_CLC",
+                        "ten_mon": "Đảm bảo chất lượng phần mềm",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7144513164724404866",
+                        "ma_mon": "INT1448_CLC",
+                        "ten_mon": "Phát triển phần mềm hướng dịch vụ",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7866242966822206878",
+                        "ma_mon": "INT1427_CLC",
+                        "ten_mon": "Kiến trúc và thiết kế phần mềm",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5203797553533447769",
+                        "ma_mon": "BAS1153",
+                        "ten_mon": "Lịch sử Đảng cộng sản Việt Nam",
+                        "ten_mon_eg": "History of Vietnam Communist Party",
+                        "so_tin_chi": "2",
+                        "so_tin_chi_hp": "2",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "24",
+                        "thuc_hanh": "0",
+                        "tong_tiet": "30",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": [
+                            {
+                                "ten_thanh_phan": "Bài tập",
+                                "so_tiet": "6"
+                            },
+                            {
+                                "ten_thanh_phan": "Lý thuyết",
+                                "so_tiet": "24"
+                            },
+                            {
+                                "ten_thanh_phan": "Tự học",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Bài tập lớn",
+                                "so_tiet": "0"
+                            },
+                            {
+                                "ten_thanh_phan": "Thực hành",
+                                "so_tiet": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-6645077409158015240",
+                        "ma_mon": "INT1405_CLC",
+                        "ten_mon": "Các hệ thống phân tán",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "3",
+                        "so_tin_chi_hp": "3",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    }
+                ]
+            },
+            {
+                "hoc_ky": "20251",
+                "ten_hoc_ky": "Học kỳ 1 - Năm học 2025 - 2026",
+                "ds_CTDT_mon_hoc": [
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-7619383968429317067",
+                        "ma_mon": "INT1478_CLC",
+                        "ten_mon": "Đồ án tốt nghiệp",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "8",
+                        "so_tin_chi_hp": "8",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    },
+                    {
+                        "id_khoi": "-8112712804283297045",
+                        "id_mon": "-5331914528091986561",
+                        "ma_mon": "INT2020_CLC",
+                        "ten_mon": "Thực tập tốt nghiệp",
+                        "ten_mon_eg": "",
+                        "so_tin_chi": "8",
+                        "so_tin_chi_hp": "8",
+                        "mon_bat_buoc": "",
+                        "nhom_tc": "",
+                        "ma_chnganh": "",
+                        "ten_chnganh": "",
+                        "mon_da_hoc": "x",
+                        "ly_thuyet": "",
+                        "thuc_hanh": "",
+                        "tong_tiet": "0",
+                        "so_tc_min": "",
+                        "so_tc_max": "",
+                        "mon_da_dat": "",
+                        "ghi_chu_mon_hoc": "",
+                        "mon_cot_loi": "",
+                        "ds_tiet_thanh_phan": []
+                    }
+                ]
+            }
+        ],
+        "ds_CTDT_hocky_n2": [],
+        "ds_field_an": [
+            {
+                "ten_field": "nhom_tc",
+                "enable": false
+            },
+            {
+                "ten_field": "nhanh_tc",
+                "enable": false
+            },
+            {
+                "ten_field": "so_tc_min",
+                "enable": false
+            },
+            {
+                "ten_field": "so_tc_max",
+                "enable": false
+            },
+            {
+                "ten_field": "so_tc_phai_dat",
+                "enable": false
+            },
+            {
+                "ten_field": "mon_da_dat",
+                "enable": false
+            },
+            {
+                "ten_field": "so_tin_chi_hp",
+                "enable": false
+            },
+            {
+                "ten_field": "mon_cot_loi",
+                "enable": false
+            }
+        ],
+        "ds_ctdt_tchuan": []
+    },
+    "result": true,
+    "code": 200
+}

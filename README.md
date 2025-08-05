@@ -94,11 +94,22 @@ cd DuKienDiem
 - Hoặc tạo file mới với đuôi `.json`
 
 **Bước 6:** Import vào ứng dụng
-- Click nút "📁 Import file điểm"
+- Click nút "📊 Import file điểm"
 - Chọn file `.json` vừa tạo
 - Ứng dụng sẽ tự động load và hiển thị
 
-> 📖 **[Xem hướng dẫn chi tiết với ảnh minh họa](HUONG-DAN-LAY-DU-LIEU.md)**
+### 4. Lấy dữ liệu chương trình đào tạo (Tùy chọn)
+
+Để sử dụng tính năng dự kiến điểm cho **môn chưa học**, bạn cần thêm dữ liệu chương trình đào tạo:
+
+**Các bước tương tự như lấy dữ liệu điểm:**
+1. Vào trang **"Chương trình đào tạo"** trong hệ thống QLDT
+2. Mở Developer Tools (F12) → tab Network
+3. Tìm request chứa dữ liệu CTĐT (thường có từ khóa `ctdt`, `curriculum`)
+4. Copy response và lưu thành file `.json`
+5. Import vào ứng dụng bằng nút **"📚 Import CTĐT"**
+
+> 📖 **[Xem hướng dẫn chi tiết với ảnh minh họa](https://github.com/tain03/DuKienDiem/blob/main/HUONG-DAN-LAY-DU-LIEU.md)**
 
 ### 4. Dự kiến điểm
 1. Bật "Chế độ dự kiến điểm"

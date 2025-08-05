@@ -69,12 +69,40 @@ Hướng dẫn này giúp bạn lấy dữ liệu điểm từ hệ thống qu�
 
 ### **Bước 6: Import vào ứng dụng**
 1. Mở ứng dụng **Dự Kiến Điểm**
-2. Click nút **"📁 Import file điểm"**
+2. Click nút **"📊 Import file điểm"**
 3. Chọn file `.json` vừa tạo
 4. Ứng dụng sẽ tự động:
    - Validate cấu trúc dữ liệu
    - Load và hiển thị điểm theo học kỳ
    - Tính toán GPA hiện tại
+
+## 📚 Lấy dữ liệu chương trình đào tạo (CTĐT)
+
+### 🎯 Mục đích
+Để sử dụng tính năng **dự kiến điểm cho môn chưa học**, bạn cần import thêm dữ liệu chương trình đào tạo.
+
+### 📋 Các bước thực hiện (Tương tự như lấy dữ liệu điểm)
+
+#### **Bước 1: Truy cập trang chương trình đào tạo**
+
+**Đối với sinh viên PTIT:**
+1. Truy cập: https://qldt.ptit.edu.vn/
+2. Đăng nhập bằng tài khoản sinh viên
+3. Vào menu **"Chương trình đào tạo"** → **"Chương trình khung"**
+4. Chọn chương trình đào tạo của bạn
+
+#### **Bước 2-5: Thực hiện tương tự như lấy dữ liệu điểm**
+1. **F12** → tab **Network**
+2. **Refresh trang** hoặc thao tác load dữ liệu
+3. **Tìm request** chứa từ khóa: `ctdt`, `curriculum`, `chuong-trinh`
+4. **Copy response** và lưu thành file `.json`
+
+#### **Bước 6: Import CTĐT vào ứng dụng**
+1. Sau khi đã import file điểm, nút **"📚 Import CTĐT"** sẽ xuất hiện
+2. Click nút **"📚 Import CTĐT"**
+3. Chọn file CTĐT `.json` vừa tạo
+4. Tab **"📚 Môn chưa học"** sẽ xuất hiện
+5. Bây giờ có thể dự kiến điểm cho tất cả môn chưa học
 
 ## ⚠️ Lưu ý quan trọng
 
@@ -84,7 +112,8 @@ Hướng dẫn này giúp bạn lấy dữ liệu điểm từ hệ thống qu�
 - Xóa file sau khi sử dụng nếu cần thiết
 
 ### **Cấu trúc dữ liệu:**
-File JSON cần có cấu trúc tối thiểu:
+
+#### **File điểm (Scores.json):**
 ```json
 {
   "data": {
@@ -93,6 +122,28 @@ File JSON cần có cấu trúc tối thiểu:
         "hoc_ky": "20241",
         "ten_hoc_ky": "Học kỳ 1 - Năm học 2024-2025",
         "ds_diem_mon_hoc": [...]
+      }
+    ]
+  }
+}
+```
+
+#### **File CTĐT (ctdao.json):**
+```json
+{
+  "data": {
+    "ds_CTDT_hocky": [
+      {
+        "hoc_ky": "20241",
+        "ten_hoc_ky": "Học kỳ 1 - Năm học 2024-2025",
+        "ds_CTDT_mon_hoc": [
+          {
+            "ma_mon": "INT1313_CLC",
+            "ten_mon": "Cơ sở dữ liệu",
+            "so_tin_chi": "3",
+            "mon_da_hoc": "x"  // "x" = đã học, "" = chưa học
+          }
+        ]
       }
     ]
   }
@@ -112,6 +163,14 @@ File JSON cần có cấu trúc tối thiểu:
 **❌ "File không đọc được"**
 - Đảm bảo file có đuôi `.json`
 - Kiểm tra encoding của file (nên là UTF-8)
+
+**❌ "Cấu trúc dữ liệu CTĐT không hợp lệ"**
+- Kiểm tra file có trường `data.ds_CTDT_hocky` không
+- Đảm bảo đã copy đúng response từ trang chương trình đào tạo
+
+**❌ "Không thấy tab Môn chưa học"**
+- Phải import file điểm trước, sau đó mới import CTĐT
+- Kiểm tra file CTĐT có dữ liệu môn chưa học không
 
 ## 🔧 Công cụ hỗ trợ
 

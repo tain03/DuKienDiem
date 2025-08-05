@@ -12,13 +12,27 @@
             <h1>Kết quả học tập</h1>
             <div class="header-controls">
                 <div class="import-section">
-                    <button id="import-btn" class="import-button">
-                        📁 Import file điểm
+                    <button id="import-scores-btn" class="import-button">
+                        📊 Import file điểm
                     </button>
-                    <input type="file" id="file-input" accept=".js,.json" style="display: none;">
+                    <input type="file" id="scores-file-input" accept=".js,.json" style="display: none;">
+
+                    <button id="import-ctdt-btn" class="import-button advanced-feature" style="display: none;">
+                        📚 Import CTĐT
+                    </button>
+                    <input type="file" id="ctdt-file-input" accept=".js,.json" style="display: none;">
+
                     <div class="file-info" id="file-info" style="display: none;">
-                        <span id="current-file">Chưa có file</span>
-                        <button id="clear-file" class="clear-btn">✕</button>
+                        <div class="file-item">
+                            <span>📊 Điểm: </span>
+                            <span id="current-scores-file">Chưa có file</span>
+                            <button id="clear-scores-file" class="clear-btn">✕</button>
+                        </div>
+                        <div class="file-item" id="ctdt-file-item" style="display: none;">
+                            <span>📚 CTĐT: </span>
+                            <span id="current-ctdt-file">Chưa có file</span>
+                            <button id="clear-ctdt-file" class="clear-btn">✕</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -42,6 +56,11 @@
 
         <div class="semester-tabs">
             <div id="semester-buttons"></div>
+        </div>
+
+        <div class="view-mode-tabs" id="view-mode-tabs" style="display: none;">
+            <button id="studied-subjects-btn" class="view-mode-btn active">📊 Môn đã học</button>
+            <button id="future-subjects-btn" class="view-mode-btn">📚 Môn chưa học</button>
         </div>
 
         <div class="table-container">
