@@ -882,6 +882,14 @@ function setupEventListeners() {
     // Import file functionality
     setupImportListeners();
 
+    // Help guide button
+    const helpBtn = document.getElementById('help-guide-btn');
+    if (helpBtn) {
+        helpBtn.addEventListener('click', () => {
+            window.open('https://github.com/tain03/DuKienDiem/blob/main/HUONG-DAN-LAY-DU-LIEU.md', '_blank');
+        });
+    }
+
     // Prediction mode toggle
     const predictionToggle = document.getElementById('prediction-toggle');
     if (predictionToggle) {
