@@ -390,17 +390,16 @@ function createSubjectRow(subject, stt) {
     const displayScore = subject.diem_tk || (isPredictionMode ? 'Dự kiến' : '-');
 
     row.innerHTML = `
-        <td>${stt}</td>
-        <td>${subject.ma_mon}</td>
-        <td>${subject.nhom_to}</td>
-        <td style="text-align: left; max-width: 200px;">${subject.ten_mon}</td>
-        <td>${subject.so_tin_chi}</td>
-        <td>${subject.diem_thi || '-'}</td>
-        <td class="${scoreClass} ${isPredicted}" data-subject-id="${subject.ma_mon}">${displayScore}</td>
-        <td>${subject.diem_tk_so || (isPredictionMode && !subject.diem_tk ? 'Dự kiến' : '-')}</td>
-        <td>${subject.diem_tk_chu || (isPredictionMode && !subject.diem_tk ? 'Dự kiến' : '-')}</td>
-        <td class="${resultClass}">${resultText}</td>
-        <td>
+        <td style="text-align: center; width: 50px; padding: 12px 8px;">${stt}</td>
+        <td style="width: 100px; padding: 12px 8px;">${subject.ma_mon}</td>
+        <td style="text-align: left; max-width: 250px; padding: 12px 8px;">${subject.ten_mon}</td>
+        <td style="width: 80px; padding: 12px 8px;">${subject.so_tin_chi}</td>
+        <td style="width: 80px; padding: 12px 8px;">${subject.diem_thi || '-'}</td>
+        <td class="${scoreClass} ${isPredicted}" data-subject-id="${subject.ma_mon}" style="width: 100px; padding: 12px 8px;">${displayScore}</td>
+        <td style="width: 80px; padding: 12px 8px;">${subject.diem_tk_so || (isPredictionMode && !subject.diem_tk ? 'Dự kiến' : '-')}</td>
+        <td style="width: 80px; padding: 12px 8px;">${subject.diem_tk_chu || (isPredictionMode && !subject.diem_tk ? 'Dự kiến' : '-')}</td>
+        <td class="${resultClass}" style="width: 100px; padding: 12px 8px;">${resultText}</td>
+        <td style="width: 100px; padding: 12px 8px;">
             ${subject.ds_diem_thanh_phan && subject.ds_diem_thanh_phan.length > 0
             ? `<button class="detail-btn" onclick="showSubjectDetail('${subject.ma_mon}')">Chi tiết</button>`
             : '-'
