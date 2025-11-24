@@ -1,100 +1,147 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kết quả học tập - Dự kiến điểm</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>Kết quả học tập</h1>
-            <div class="header-controls">
-                <div class="import-section">
-                    <button id="import-scores-btn" class="import-button">
-                        📊 Import file điểm
-                    </button>
-                    <input type="file" id="scores-file-input" accept=".js,.json" style="display: none;">
-
-                    <button id="import-ctdt-btn" class="import-button advanced-feature" style="display: none;">
-                        📚 Import CTĐT
-                    </button>
-                    <input type="file" id="ctdt-file-input" accept=".js,.json" style="display: none;">
-
-                    <button id="help-guide-btn" class="help-button" onclick="window.open('https://github.com/tain03/DuKienDiem/blob/main/HUONG-DAN-LAY-DU-LIEU.md', '_blank')">
-                        📖 Hướng dẫn sử dụng
-                    </button>
-
-                    <div class="file-info" id="file-info" style="display: none;">
-                        <div class="file-item">
-                            <span>📊 Điểm: </span>
-                            <span id="current-scores-file">Chưa có file</span>
-                            <button id="clear-scores-file" class="clear-btn">✕</button>
-                        </div>
-                        <div class="file-item" id="ctdt-file-item" style="display: none;">
-                            <span>📚 CTĐT: </span>
-                            <span id="current-ctdt-file">Chưa có file</span>
-                            <button id="clear-ctdt-file" class="clear-btn">✕</button>
-                        </div>
-                    </div>
+    <div class="app-wrapper">
+        <header class="main-header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h1>Dự Kiến Điểm</h1>
                 </div>
-            </div>
-            <div class="summary-info">
-                <div class="gpa-info">
-                    <span>Điểm TB tích lũy (10): <strong id="current-gpa-10">0.00</strong></span>
-                    <span>Điểm TB tích lũy (4): <strong id="current-gpa-4">0.00</strong></span>
-                    <span>Tổng tín chỉ đạt: <strong id="total-credits">0</strong></span>
-                </div>
-                <div class="prediction-mode">
-                    <label>
-                        <input type="checkbox" id="prediction-toggle"> Chế độ dự kiến điểm
-                    </label>
-                    <button id="reset-prediction" style="display: none;">Khôi phục điểm gốc</button>
-                    <div class="prediction-help" id="prediction-help" style="display: none;">
-                        <small>💡 Click vào cột "Điểm TK (10)" để dự kiến điểm cho bất kỳ môn học nào</small>
-                    </div>
+                <div class="header-actions">
+                    <button id="help-guide-btn" class="btn btn-ghost"
+                        onclick="window.open('https://github.com/tain03/DuKienDiem/blob/main/HUONG-DAN-LAY-DU-LIEU.md', '_blank')">
+                        <i class="fa-solid fa-book-open"></i> Hướng dẫn
+                    </button>
+                    <a href="https://github.com/tain03/DuKienDiem" target="_blank" class="btn btn-ghost">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
                 </div>
             </div>
         </header>
 
-        <div class="semester-tabs">
-            <div id="semester-buttons"></div>
-        </div>
+        <main class="container">
+            <div class="control-panel">
+                <div class="import-section">
+                    <div class="file-controls">
+                        <button id="import-scores-btn" class="btn btn-primary">
+                            <i class="fa-solid fa-file-import"></i> Import Điểm
+                        </button>
+                        <input type="file" id="scores-file-input" accept=".js,.json" style="display: none;">
 
-        <div class="view-mode-tabs" id="view-mode-tabs" style="display: none;">
-            <button id="studied-subjects-btn" class="view-mode-btn active">📊 Môn đã học</button>
-            <button id="future-subjects-btn" class="view-mode-btn">📚 Môn chưa học</button>
-        </div>
+                        <button id="import-ctdt-btn" class="btn btn-secondary advanced-feature" style="display: none;">
+                            <i class="fa-solid fa-book"></i> Import CTĐT
+                        </button>
+                        <input type="file" id="ctdt-file-input" accept=".js,.json" style="display: none;">
+                    </div>
 
-        <div class="table-container">
-            <table id="scores-table">
-                <thead>
-                    <tr>
-                        <th>STT</th>
-                        <th>Mã MH</th>
-                        <th>Nhóm/tổ môn học</th>
-                        <th>Tên môn học</th>
-                        <th>Số tín chỉ</th>
-                        <th>Điểm thi</th>
-                        <th>Điểm TK (10)</th>
-                        <th>Điểm TK (4)</th>
-                        <th>Điểm TK (C)</th>
-                        <th>Kết quả</th>
-                        <th>Chi tiết</th>
-                    </tr>
-                </thead>
-                <tbody id="scores-tbody">
-                </tbody>
-            </table>
-        </div>
+                    <div class="file-info" id="file-info" style="display: none;">
+                        <div class="file-badge">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span id="current-scores-file">Chưa có file</span>
+                            <button id="clear-scores-file" class="btn-icon-only"><i
+                                    class="fa-solid fa-times"></i></button>
+                        </div>
+                        <div class="file-badge" id="ctdt-file-item" style="display: none;">
+                            <i class="fa-solid fa-check-circle"></i>
+                            <span id="current-ctdt-file">Chưa có file</span>
+                            <button id="clear-ctdt-file" class="btn-icon-only"><i
+                                    class="fa-solid fa-times"></i></button>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="semester-summary">
-            <div class="summary-card">
-                <h3>Thống kê học kỳ</h3>
-                <div id="semester-stats"></div>
+                <div class="prediction-toggle-wrapper">
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="prediction-toggle">
+                        <span class="toggle-slider"></span>
+                        <span class="toggle-label">Chế độ dự kiến</span>
+                    </label>
+                    <button id="reset-prediction" class="btn btn-sm btn-outline-danger" style="display: none;">
+                        <i class="fa-solid fa-rotate-left"></i> Khôi phục
+                    </button>
+                </div>
             </div>
-        </div>
+
+            <div class="stats-grid">
+                <div class="stat-card primary">
+                    <div class="stat-icon"><i class="fa-solid fa-star"></i></div>
+                    <div class="stat-content">
+                        <h3>Điểm TB (10)</h3>
+                        <strong id="current-gpa-10">0.00</strong>
+                    </div>
+                </div>
+                <div class="stat-card success">
+                    <div class="stat-icon"><i class="fa-solid fa-chart-pie"></i></div>
+                    <div class="stat-content">
+                        <h3>Điểm TB (4)</h3>
+                        <strong id="current-gpa-4">0.00</strong>
+                    </div>
+                </div>
+                <div class="stat-card info">
+                    <div class="stat-icon"><i class="fa-solid fa-certificate"></i></div>
+                    <div class="stat-content">
+                        <h3>Tín chỉ đạt</h3>
+                        <strong id="total-credits">0</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prediction-help-alert" id="prediction-help" style="display: none;">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span>Click vào cột <strong>"Điểm TK (10)"</strong> để dự kiến điểm cho bất kỳ môn học nào.</span>
+            </div>
+
+            <div class="semester-tabs">
+                <div id="semester-buttons"></div>
+            </div>
+
+            <div class="view-mode-tabs" id="view-mode-tabs" style="display: none;">
+                <button id="studied-subjects-btn" class="view-mode-btn active">📊 Môn đã học</button>
+                <button id="future-subjects-btn" class="view-mode-btn">📚 Môn chưa học</button>
+            </div>
+
+            <div class="table-container">
+                <table id="scores-table">
+                    <thead>
+                        <tr>
+                            <th>STT</th>
+                            <th>Mã MH</th>
+                            <th>Nhóm/tổ môn học</th>
+                            <th>Tên môn học</th>
+                            <th>Số tín chỉ</th>
+                            <th>Điểm thi</th>
+                            <th>Điểm TK (10)</th>
+                            <th>Điểm TK (4)</th>
+                            <th>Điểm TK (C)</th>
+                            <th>Kết quả</th>
+                            <th>Chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody id="scores-tbody">
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="semester-summary">
+                <div class="summary-card">
+                    <h3>Thống kê học kỳ</h3>
+                    <div id="semester-stats"></div>
+                </div>
+            </div>
+        </main>
     </div>
 
     <!-- Modal chi tiết điểm -->
@@ -134,15 +181,61 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr><td>9.0 - 10.0</td><td>A+</td><td>4.0</td><td>Đạt</td></tr>
-                                <tr><td>8.5 - 8.9</td><td>A</td><td>3.7</td><td>Đạt</td></tr>
-                                <tr><td>8.0 - 8.4</td><td>B+</td><td>3.5</td><td>Đạt</td></tr>
-                                <tr><td>7.0 - 7.9</td><td>B</td><td>3.0</td><td>Đạt</td></tr>
-                                <tr><td>6.5 - 6.9</td><td>C+</td><td>2.5</td><td>Đạt</td></tr>
-                                <tr><td>5.5 - 6.4</td><td>C</td><td>2.0</td><td>Đạt</td></tr>
-                                <tr><td>5.0 - 5.4</td><td>D+</td><td>1.5</td><td>Đạt</td></tr>
-                                <tr><td>4.0 - 4.9</td><td>D</td><td>1.0</td><td>Đạt</td></tr>
-                                <tr class="fail-grade"><td>< 4.0</td><td>F</td><td>0.0</td><td>Không đạt</td></tr>
+                                <tr>
+                                    <td>9.0 - 10.0</td>
+                                    <td>A+</td>
+                                    <td>4.0</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>8.5 - 8.9</td>
+                                    <td>A</td>
+                                    <td>3.7</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>8.0 - 8.4</td>
+                                    <td>B+</td>
+                                    <td>3.5</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>7.0 - 7.9</td>
+                                    <td>B</td>
+                                    <td>3.0</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>6.5 - 6.9</td>
+                                    <td>C+</td>
+                                    <td>2.5</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>5.5 - 6.4</td>
+                                    <td>C</td>
+                                    <td>2.0</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>5.0 - 5.4</td>
+                                    <td>D+</td>
+                                    <td>1.5</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr>
+                                    <td>4.0 - 4.9</td>
+                                    <td>D</td>
+                                    <td>1.0</td>
+                                    <td>Đạt</td>
+                                </tr>
+                                <tr class="fail-grade">
+                                    <td>
+                                        < 4.0</td>
+                                    <td>F</td>
+                                    <td>0.0</td>
+                                    <td>Không đạt</td>
+                                </tr>
                             </tbody>
                         </table>
                     </details>
@@ -153,4 +246,5 @@
 
     <script src="app.js"></script>
 </body>
+
 </html>

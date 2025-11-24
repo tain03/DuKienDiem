@@ -402,9 +402,9 @@ function createSubjectRow(subject, stt) {
         <td class="${resultClass}">${resultText}</td>
         <td>
             ${subject.ds_diem_thanh_phan && subject.ds_diem_thanh_phan.length > 0
-                ? `<button class="detail-btn" onclick="showSubjectDetail('${subject.ma_mon}')">Chi tiết</button>`
-                : '-'
-            }
+            ? `<button class="detail-btn" onclick="showSubjectDetail('${subject.ma_mon}')">Chi tiết</button>`
+            : '-'
+        }
         </td>
     `;
 
@@ -506,12 +506,12 @@ function getResultClass(result) {
 function showSubjectDetail(subjectCode) {
     const semester = scoresData.data.ds_diem_hocky.find(s => s.hoc_ky === currentSemester);
     const subject = semester.ds_diem_mon_hoc.find(s => s.ma_mon === subjectCode);
-    
+
     if (!subject || !subject.ds_diem_thanh_phan) return;
 
     const modal = document.getElementById('detail-modal');
     const content = document.getElementById('detail-content');
-    
+
     content.innerHTML = `
         <h4>${subject.ten_mon} (${subject.ma_mon})</h4>
         <table class="detail-table">
@@ -536,7 +536,7 @@ function showSubjectDetail(subjectCode) {
             <strong>Điểm tổng kết: ${subject.diem_tk || 'Chưa có'}</strong>
         </div>
     `;
-    
+
     modal.style.display = 'block';
 }
 
@@ -910,13 +910,13 @@ function setupEventListeners() {
 
     // Modal close buttons
     document.querySelectorAll('.close').forEach(closeBtn => {
-        closeBtn.addEventListener('click', function() {
+        closeBtn.addEventListener('click', function () {
             this.closest('.modal').style.display = 'none';
         });
     });
 
     // Close modal when clicking outside
-    window.addEventListener('click', function(event) {
+    window.addEventListener('click', function (event) {
         if (event.target.classList.contains('modal')) {
             event.target.style.display = 'none';
         }
@@ -925,7 +925,7 @@ function setupEventListeners() {
     // Enter key in prediction input
     const scoreInput = document.getElementById('new-score');
     if (scoreInput) {
-        scoreInput.addEventListener('keypress', function(event) {
+        scoreInput.addEventListener('keypress', function (event) {
             if (event.key === 'Enter') {
                 applyPrediction();
             }
@@ -1012,7 +1012,7 @@ function handleFileImport(event, type) {
 
     // Read file content
     const reader = new FileReader();
-    reader.onload = function(e) {
+    reader.onload = function (e) {
         const content = e.target.result;
         if (type === 'scores') {
             loadScoresFromFile(content, file.name);
@@ -1021,7 +1021,7 @@ function handleFileImport(event, type) {
         }
     };
 
-    reader.onerror = function() {
+    reader.onerror = function () {
         showMessage('❌ Lỗi đọc file', 'error');
     };
 

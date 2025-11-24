@@ -1,64 +1,32 @@
 {
     "data": {
-        "total_items": 52,
+        "total_items": 54,
         "total_pages": 1,
         "is_kkbd": false,
         "ds_diem_hocky": [
             {
+                "loai_nganh": 1,
                 "hoc_ky": "20251",
                 "ten_hoc_ky": "Học kỳ 1 - Năm học 2025 - 2026",
-                "so_tin_chi_dat_hk": "",
-                "so_tin_chi_dat_tich_luy": "",
+                "dtb_hk_he10": "9.50",
+                "dtb_hk_he4": "4.00",
+                "dtb_tich_luy_he_10": "6.57",
+                "dtb_tich_luy_he_4": "2.36",
+                "so_tin_chi_dat_hk": "8",
+                "so_tin_chi_dat_tich_luy": "145",
                 "hien_thi_tk_he_10": true,
                 "hien_thi_tk_he_4": true,
+                "xep_loai_tkb_hk": "Xuất sắc",
+                "xep_loai_tkb_hk_eg": "Excellent",
                 "ds_diem_mon_hoc": [
                     {
                         "chuyen_diem_ve_hoc_ky": "",
-                        "ma_mon": "INT2020_CLC",
+                        "ma_mon": "BAS1164_CLC",
                         "ma_mon_tt": "",
-                        "nhom_to": "01",
-                        "ten_mon": "Thực tập tốt nghiệp",
+                        "nhom_to": "02",
+                        "ten_mon": "Tiếng Anh (Course 3_CLC)",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "8",
-                        "diem_thi": "",
-                        "diem_giua_ky": "",
-                        "diem_tk": "",
-                        "diem_tk_so": "",
-                        "diem_tk_chu": "",
-                        "ket_qua": -1,
-                        "hien_thi_ket_qua": true,
-                        "loai_nganh": 1,
-                        "KhoaThi": 0,
-                        "khong_tinh_diem_tbtl": 1,
-                        "ly_do_khong_tinh_diem_tbtl": "Môn cải thiện điểm",
-                        "ds_diem_thanh_phan": []
-                    }
-                ]
-            },
-            {
-                "loai_nganh": 1,
-                "hoc_ky": "20242",
-                "ten_hoc_ky": "Học kỳ 2 - Năm học 2024 - 2025",
-                "dtb_hk_he10": "5.60",
-                "dtb_hk_he4": "2.00",
-                "dtb_tich_luy_he_10": "6.12",
-                "dtb_tich_luy_he_4": "2.14",
-                "so_tin_chi_dat_hk": "3",
-                "so_tin_chi_dat_tich_luy": "120",
-                "hien_thi_tk_he_10": true,
-                "hien_thi_tk_he_4": true,
-                "xep_loai_tkb_hk": "Trung bình",
-                "xep_loai_tkb_hk_eg": "Average",
-                "ds_diem_mon_hoc": [
-                    {
-                        "chuyen_diem_ve_hoc_ky": "",
-                        "ma_mon": "BAS1153",
-                        "ma_mon_tt": "",
-                        "nhom_to": "03",
-                        "ten_mon": "Lịch sử Đảng cộng sản Việt Nam",
-                        "ten_mon_eg": "History of Vietnam Communist Party",
-                        "mon_hoc_nganh": true,
-                        "so_tin_chi": "2",
                         "diem_thi": "",
                         "diem_giua_ky": "",
                         "diem_tk": "",
@@ -71,6 +39,113 @@
                         "khong_tinh_diem_tbtl": 1,
                         "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
                         "ds_diem_thanh_phan": []
+                    },
+                    {
+                        "chuyen_diem_ve_hoc_ky": "",
+                        "ma_mon": "INT1478_CLC",
+                        "ma_mon_tt": "",
+                        "nhom_to": "01",
+                        "ten_mon": "Đồ án tốt nghiệp",
+                        "mon_hoc_nganh": true,
+                        "so_tin_chi": "8",
+                        "diem_thi": "",
+                        "diem_giua_ky": "",
+                        "diem_tk": "",
+                        "diem_tk_so": "",
+                        "diem_tk_chu": "",
+                        "ket_qua": 0,
+                        "hien_thi_ket_qua": true,
+                        "loai_nganh": 1,
+                        "KhoaThi": 0,
+                        "khong_tinh_diem_tbtl": 1,
+                        "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
+                        "ds_diem_thanh_phan": []
+                    },
+                    {
+                        "chuyen_diem_ve_hoc_ky": "",
+                        "ma_mon": "INT2020_CLC",
+                        "ma_mon_tt": "",
+                        "nhom_to": "01",
+                        "ten_mon": "Thực tập tốt nghiệp",
+                        "mon_hoc_nganh": true,
+                        "so_tin_chi": "8",
+                        "diem_thi": "9.5",
+                        "diem_giua_ky": "",
+                        "diem_tk": "9.5",
+                        "diem_tk_so": "4.0",
+                        "diem_tk_chu": "A+",
+                        "ket_qua": 1,
+                        "hien_thi_ket_qua": true,
+                        "loai_nganh": 1,
+                        "KhoaThi": 0,
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "100",
+                                "diem_thanh_phan": "9.5"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "loai_nganh": 1,
+                "hoc_ky": "20242",
+                "ten_hoc_ky": "Học kỳ 2 - Năm học 2024 - 2025",
+                "dtb_hk_he10": "6.75",
+                "dtb_hk_he4": "2.58",
+                "dtb_tich_luy_he_10": "6.40",
+                "dtb_tich_luy_he_4": "2.26",
+                "so_tin_chi_dat_hk": "20",
+                "so_tin_chi_dat_tich_luy": "137",
+                "hien_thi_tk_he_10": true,
+                "hien_thi_tk_he_4": true,
+                "xep_loai_tkb_hk": "Khá",
+                "xep_loai_tkb_hk_eg": "Good",
+                "ds_diem_mon_hoc": [
+                    {
+                        "chuyen_diem_ve_hoc_ky": "",
+                        "ma_mon": "BAS1153",
+                        "ma_mon_tt": "",
+                        "nhom_to": "03",
+                        "ten_mon": "Lịch sử Đảng cộng sản Việt Nam",
+                        "ten_mon_eg": "History of Vietnam Communist Party",
+                        "mon_hoc_nganh": true,
+                        "so_tin_chi": "2",
+                        "diem_thi": "6.5",
+                        "diem_giua_ky": "7.5",
+                        "diem_tk": "7.0",
+                        "diem_tk_so": "3.0",
+                        "diem_tk_chu": "B",
+                        "ket_qua": 1,
+                        "hien_thi_ket_qua": true,
+                        "loai_nganh": 1,
+                        "KhoaThi": 0,
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "60",
+                                "diem_thanh_phan": "6.5"
+                            },
+                            {
+                                "ky_hieu": "K1",
+                                "ten_thanh_phan": "Kiểm tra",
+                                "trong_so": "30",
+                                "diem_thanh_phan": "7.5"
+                            },
+                            {
+                                "ky_hieu": "K3",
+                                "ten_thanh_phan": "Chuyên cần",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "8.0"
+                            }
+                        ]
                     },
                     {
                         "chuyen_diem_ve_hoc_ky": "",
@@ -126,18 +201,37 @@
                         "ten_mon": "Các hệ thống phân tán",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "3",
-                        "diem_thi": "",
-                        "diem_giua_ky": "",
-                        "diem_tk": "",
-                        "diem_tk_so": "",
-                        "diem_tk_chu": "",
-                        "ket_qua": 0,
+                        "diem_thi": "9.0",
+                        "diem_giua_ky": "8.5",
+                        "diem_tk": "8.9",
+                        "diem_tk_so": "3.7",
+                        "diem_tk_chu": "A",
+                        "ket_qua": 1,
                         "hien_thi_ket_qua": true,
                         "loai_nganh": 1,
                         "KhoaThi": 0,
-                        "khong_tinh_diem_tbtl": 1,
-                        "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
-                        "ds_diem_thanh_phan": []
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "60",
+                                "diem_thanh_phan": "9.0"
+                            },
+                            {
+                                "ky_hieu": "K1",
+                                "ten_thanh_phan": "Kiểm tra",
+                                "trong_so": "30",
+                                "diem_thanh_phan": "8.5"
+                            },
+                            {
+                                "ky_hieu": "K3",
+                                "ten_thanh_phan": "Chuyên cần",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "9.0"
+                            }
+                        ]
                     },
                     {
                         "chuyen_diem_ve_hoc_ky": "",
@@ -147,18 +241,37 @@
                         "ten_mon": "Đảm bảo chất lượng phần mềm",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "3",
-                        "diem_thi": "",
-                        "diem_giua_ky": "",
-                        "diem_tk": "",
-                        "diem_tk_so": "",
-                        "diem_tk_chu": "",
-                        "ket_qua": 0,
+                        "diem_thi": "3.6",
+                        "diem_giua_ky": "8.0",
+                        "diem_tk": "5.0",
+                        "diem_tk_so": "1.5",
+                        "diem_tk_chu": "D+",
+                        "ket_qua": 1,
                         "hien_thi_ket_qua": true,
                         "loai_nganh": 1,
                         "KhoaThi": 0,
-                        "khong_tinh_diem_tbtl": 1,
-                        "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
-                        "ds_diem_thanh_phan": []
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "K1",
+                                "ten_thanh_phan": "Kiểm tra",
+                                "trong_so": "20",
+                                "diem_thanh_phan": "8.0"
+                            },
+                            {
+                                "ky_hieu": "K3",
+                                "ten_thanh_phan": "Chuyên cần",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "9.0"
+                            },
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "70",
+                                "diem_thanh_phan": "3.6"
+                            }
+                        ]
                     },
                     {
                         "chuyen_diem_ve_hoc_ky": "",
@@ -168,18 +281,43 @@
                         "ten_mon": "Kiến trúc và thiết kế phần mềm",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "3",
-                        "diem_thi": "",
-                        "diem_giua_ky": "",
-                        "diem_tk": "",
-                        "diem_tk_so": "",
-                        "diem_tk_chu": "",
-                        "ket_qua": 0,
+                        "diem_thi": "7.0",
+                        "diem_giua_ky": "7.5",
+                        "diem_tk": "7.5",
+                        "diem_tk_so": "3.0",
+                        "diem_tk_chu": "B",
+                        "ket_qua": 1,
                         "hien_thi_ket_qua": true,
                         "loai_nganh": 1,
                         "KhoaThi": 0,
-                        "khong_tinh_diem_tbtl": 1,
-                        "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
-                        "ds_diem_thanh_phan": []
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "50",
+                                "diem_thanh_phan": "7.0"
+                            },
+                            {
+                                "ky_hieu": "K3",
+                                "ten_thanh_phan": "Chuyên cần",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "9.0"
+                            },
+                            {
+                                "ky_hieu": "B1",
+                                "ten_thanh_phan": "Bài tập",
+                                "trong_so": "20",
+                                "diem_thanh_phan": "8.0"
+                            },
+                            {
+                                "ky_hieu": "K1",
+                                "ten_thanh_phan": "Kiểm tra",
+                                "trong_so": "20",
+                                "diem_thanh_phan": "7.5"
+                            }
+                        ]
                     },
                     {
                         "chuyen_diem_ve_hoc_ky": "",
@@ -189,18 +327,43 @@
                         "ten_mon": "Phát triển phần mềm hướng dịch vụ",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "3",
-                        "diem_thi": "",
-                        "diem_giua_ky": "",
-                        "diem_tk": "",
-                        "diem_tk_so": "",
-                        "diem_tk_chu": "",
-                        "ket_qua": 0,
+                        "diem_thi": "4.5",
+                        "diem_giua_ky": "4.5",
+                        "diem_tk": "5.6",
+                        "diem_tk_so": "2.0",
+                        "diem_tk_chu": "C",
+                        "ket_qua": 1,
                         "hien_thi_ket_qua": true,
                         "loai_nganh": 1,
                         "KhoaThi": 0,
-                        "khong_tinh_diem_tbtl": 1,
-                        "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
-                        "ds_diem_thanh_phan": []
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "K3",
+                                "ten_thanh_phan": "Chuyên cần",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "10.0"
+                            },
+                            {
+                                "ky_hieu": "B1",
+                                "ten_thanh_phan": "Bài tập",
+                                "trong_so": "20",
+                                "diem_thanh_phan": "7.0"
+                            },
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "50",
+                                "diem_thanh_phan": "4.5"
+                            },
+                            {
+                                "ky_hieu": "K1",
+                                "ten_thanh_phan": "Kiểm tra",
+                                "trong_so": "20",
+                                "diem_thanh_phan": "4.5"
+                            }
+                        ]
                     },
                     {
                         "chuyen_diem_ve_hoc_ky": "",
@@ -210,18 +373,43 @@
                         "ten_mon": "Xây dựng các hệ thống nhúng",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "3",
-                        "diem_thi": "",
-                        "diem_giua_ky": "",
-                        "diem_tk": "",
-                        "diem_tk_so": "",
-                        "diem_tk_chu": "",
-                        "ket_qua": 0,
+                        "diem_thi": "7.5",
+                        "diem_giua_ky": "6.0",
+                        "diem_tk": "7.7",
+                        "diem_tk_so": "3.0",
+                        "diem_tk_chu": "B",
+                        "ket_qua": 1,
                         "hien_thi_ket_qua": true,
                         "loai_nganh": 1,
                         "KhoaThi": 0,
-                        "khong_tinh_diem_tbtl": 1,
-                        "ly_do_khong_tinh_diem_tbtl": "Môn chưa nhập điểm",
-                        "ds_diem_thanh_phan": []
+                        "khong_tinh_diem_tbtl": 0,
+                        "ly_do_khong_tinh_diem_tbtl": "",
+                        "ds_diem_thanh_phan": [
+                            {
+                                "ky_hieu": "K3",
+                                "ten_thanh_phan": "Chuyên cần",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "9.0"
+                            },
+                            {
+                                "ky_hieu": "B1",
+                                "ten_thanh_phan": "Bài tập",
+                                "trong_so": "20",
+                                "diem_thanh_phan": "8.5"
+                            },
+                            {
+                                "ky_hieu": "K1",
+                                "ten_thanh_phan": "Kiểm tra",
+                                "trong_so": "10",
+                                "diem_thanh_phan": "6.0"
+                            },
+                            {
+                                "ky_hieu": "T1",
+                                "ten_thanh_phan": "Điểm thi",
+                                "trong_so": "60",
+                                "diem_thanh_phan": "7.5"
+                            }
+                        ]
                     }
                 ]
             },
@@ -231,8 +419,8 @@
                 "ten_hoc_ky": "Học kỳ 1 - Năm học 2024 - 2025",
                 "dtb_hk_he10": "6.79",
                 "dtb_hk_he4": "2.49",
-                "dtb_tich_luy_he_10": "6.14",
-                "dtb_tich_luy_he_4": "2.14",
+                "dtb_tich_luy_he_10": "6.34",
+                "dtb_tich_luy_he_4": "2.21",
                 "so_tin_chi_dat_hk": "18",
                 "so_tin_chi_dat_tich_luy": "117",
                 "hien_thi_tk_he_10": true,
@@ -518,8 +706,8 @@
                 "ten_hoc_ky": "Học kỳ 3 - Năm học 2023 - 2024",
                 "dtb_hk_he10": "6.80",
                 "dtb_hk_he4": "2.50",
-                "dtb_tich_luy_he_10": "6.02",
-                "dtb_tich_luy_he_4": "2.08",
+                "dtb_tich_luy_he_10": "6.26",
+                "dtb_tich_luy_he_4": "2.16",
                 "so_tin_chi_dat_hk": "2",
                 "so_tin_chi_dat_tich_luy": "99",
                 "hien_thi_tk_he_10": true,
@@ -581,8 +769,8 @@
                 "ten_hoc_ky": "Học kỳ 2 - Năm học 2023 - 2024",
                 "dtb_hk_he10": "6.23",
                 "dtb_hk_he4": "2.13",
-                "dtb_tich_luy_he_10": "5.96",
-                "dtb_tich_luy_he_4": "2.05",
+                "dtb_tich_luy_he_10": "6.21",
+                "dtb_tich_luy_he_4": "2.13",
                 "so_tin_chi_dat_hk": "16",
                 "so_tin_chi_dat_tich_luy": "99",
                 "hien_thi_tk_he_10": true,
@@ -916,8 +1104,8 @@
                 "ten_hoc_ky": "Học kỳ 1 - Năm học 2023 - 2024",
                 "dtb_hk_he10": "6.59",
                 "dtb_hk_he4": "2.47",
-                "dtb_tich_luy_he_10": "5.91",
-                "dtb_tich_luy_he_4": "2.03",
+                "dtb_tich_luy_he_10": "6.20",
+                "dtb_tich_luy_he_4": "2.13",
                 "so_tin_chi_dat_hk": "17",
                 "so_tin_chi_dat_tich_luy": "83",
                 "hien_thi_tk_he_10": true,
@@ -1204,8 +1392,8 @@
                 "ten_hoc_ky": "Học kỳ 2 - Năm học 2022 - 2023",
                 "dtb_hk_he10": "5.99",
                 "dtb_hk_he4": "1.91",
-                "dtb_tich_luy_he_10": "5.74",
-                "dtb_tich_luy_he_4": "1.92",
+                "dtb_tich_luy_he_10": "6.10",
+                "dtb_tich_luy_he_4": "2.04",
                 "so_tin_chi_dat_hk": "13",
                 "so_tin_chi_dat_tich_luy": "66",
                 "hien_thi_tk_he_10": true,
@@ -1540,8 +1728,8 @@
                 "ten_hoc_ky": "Học kỳ 1 - Năm học 2022 - 2023",
                 "dtb_hk_he10": "4.86",
                 "dtb_hk_he4": "1.45",
-                "dtb_tich_luy_he_10": "5.56",
-                "dtb_tich_luy_he_4": "1.81",
+                "dtb_tich_luy_he_10": "6.01",
+                "dtb_tich_luy_he_4": "1.96",
                 "so_tin_chi_dat_hk": "10",
                 "so_tin_chi_dat_tich_luy": "53",
                 "hien_thi_tk_he_10": true,
@@ -1742,8 +1930,8 @@
                 "ten_hoc_ky": "Học kỳ 2 - Năm học 2021 - 2022",
                 "dtb_hk_he10": "4.76",
                 "dtb_hk_he4": "1.30",
-                "dtb_tich_luy_he_10": "5.72",
-                "dtb_tich_luy_he_4": "1.90",
+                "dtb_tich_luy_he_10": "6.28",
+                "dtb_tich_luy_he_4": "2.08",
                 "so_tin_chi_dat_hk": "10",
                 "so_tin_chi_dat_tich_luy": "43",
                 "hien_thi_tk_he_10": true,
@@ -1938,8 +2126,8 @@
                 "ten_hoc_ky": "Học kỳ 1 - Năm học 2021 - 2022",
                 "dtb_hk_he10": "6.44",
                 "dtb_hk_he4": "2.15",
-                "dtb_tich_luy_he_10": "6.01",
-                "dtb_tich_luy_he_4": "2.08",
+                "dtb_tich_luy_he_10": "6.74",
+                "dtb_tich_luy_he_4": "2.32",
                 "so_tin_chi_dat_hk": "17",
                 "so_tin_chi_dat_tich_luy": "33",
                 "hien_thi_tk_he_10": true,
@@ -2213,16 +2401,16 @@
                 "loai_nganh": 1,
                 "hoc_ky": "0",
                 "ten_hoc_ky": "Bảo lưu",
-                "dtb_hk_he10": "6.00",
-                "dtb_hk_he4": "2.17",
-                "dtb_tich_luy_he_10": "6.00",
-                "dtb_tich_luy_he_4": "2.17",
+                "dtb_hk_he10": "7.00",
+                "dtb_hk_he4": "2.50",
+                "dtb_tich_luy_he_10": "7.00",
+                "dtb_tich_luy_he_4": "2.50",
                 "so_tin_chi_dat_hk": "24",
                 "so_tin_chi_dat_tich_luy": "24",
                 "hien_thi_tk_he_10": true,
                 "hien_thi_tk_he_4": true,
-                "xep_loai_tkb_hk": "Trung bình",
-                "xep_loai_tkb_hk_eg": "Average",
+                "xep_loai_tkb_hk": "Khá",
+                "xep_loai_tkb_hk_eg": "Good",
                 "ds_diem_mon_hoc": [
                     {
                         "chuyen_diem_ve_hoc_ky": "",
@@ -2232,11 +2420,11 @@
                         "ten_mon": "Tiếng Anh (Course 1_CLC)",
                         "mon_hoc_nganh": true,
                         "so_tin_chi": "8",
-                        "diem_thi": "7.0",
+                        "diem_thi": "10.0",
                         "diem_giua_ky": "",
-                        "diem_tk": "7.0",
-                        "diem_tk_so": "3.0",
-                        "diem_tk_chu": "B",
+                        "diem_tk": "10.0",
+                        "diem_tk_so": "4.0",
+                        "diem_tk_chu": "A+",
                         "ket_qua": 1,
                         "hien_thi_ket_qua": true,
                         "loai_nganh": 1,
@@ -2248,7 +2436,7 @@
                                 "ky_hieu": "T1",
                                 "ten_thanh_phan": "Điểm thi",
                                 "trong_so": "100",
-                                "diem_thanh_phan": "7.0"
+                                "diem_thanh_phan": "10.0"
                             }
                         ]
                     },
