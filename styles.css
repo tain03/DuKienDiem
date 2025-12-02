@@ -834,6 +834,201 @@ tbody tr td {
         padding: 1.5rem;
     }
 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: var(--shadow-out);
+}
+
+.close:hover {
+    color: var(--danger);
+    box-shadow: var(--shadow-in);
+}
+
+.modal h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--text-main);
+}
+
+/* Prediction Form */
+.prediction-form {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.prediction-form input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    background: var(--bg-card);
+    box-shadow: var(--shadow-in);
+    color: var(--text-main);
+    transition: all 0.2s;
+}
+
+.prediction-form input:focus {
+    outline: none;
+    box-shadow: var(--shadow-in), 0 0 0 2px var(--primary);
+}
+
+.prediction-form button {
+    background-color: var(--bg-card);
+    color: var(--primary);
+    border: none;
+    padding: 0 2rem;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: var(--shadow-out);
+}
+
+.prediction-form button:hover {
+    color: var(--primary-hover);
+    box-shadow: var(--shadow-out-hover);
+    transform: translateY(-2px);
+}
+
+.prediction-form button:active {
+    box-shadow: var(--shadow-in);
+    transform: translateY(0);
+}
+
+.prediction-note {
+    background-color: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-in);
+}
+
+/* Grade Scale Table */
+.grade-scale details {
+    background-color: var(--bg-card);
+    border: none;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-out);
+}
+
+.grade-scale summary {
+    padding: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    list-style: none;
+}
+
+.grade-scale summary:hover {
+    color: var(--primary);
+}
+
+.scale-table {
+    width: 100%;
+}
+
+.scale-table th,
+.scale-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(163, 177, 198, 0.2);
+}
+
+.scale-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Toast Messages */
+.message-toast {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    padding: 1.25rem 2rem;
+    border-radius: var(--radius-lg);
+    font-weight: 600;
+    z-index: 1000;
+    box-shadow: var(--shadow-out);
+    animation: slideIn 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-card);
+    color: var(--text-main);
+    border: none;
+}
+
+.message-toast.success {
+    color: var(--success);
+    border-left: 4px solid var(--success);
+}
+
+.message-toast.error {
+    color: var(--danger);
+    border-left: 4px solid var(--danger);
+}
+
+.message-toast.info {
+    color: var(--info);
+    border-left: 4px solid var(--info);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .control-panel {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1.5rem;
+    }
+
     .import-section {
         width: 100%;
     }
@@ -856,5 +1051,263 @@ tbody tr td {
 
     .stats-grid {
         grid-template-columns: 1fr;
+    }
+
+    /* Mobile Table Optimization */
+    .table-container {
+        padding: 0.5rem;
+        overflow-x: hidden;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+
+    box-shadow: var(--shadow-in);
+    color: var(--text-main);
+    transition: all 0.2s;
+}
+
+.prediction-form input:focus {
+    outline: none;
+    box-shadow: var(--shadow-in), 0 0 0 2px var(--primary);
+}
+
+.prediction-form button {
+    background-color: var(--bg-card);
+    color: var(--primary);
+    border: none;
+    padding: 0 2rem;
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: var(--shadow-out);
+}
+
+.prediction-form button:hover {
+    color: var(--primary-hover);
+    box-shadow: var(--shadow-out-hover);
+    transform: translateY(-2px);
+}
+
+.prediction-form button:active {
+    box-shadow: var(--shadow-in);
+    transform: translateY(0);
+}
+
+.prediction-note {
+    background-color: var(--bg-card);
+    padding: 1.5rem;
+    border-radius: var(--radius-md);
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow-in);
+}
+
+/* Grade Scale Table */
+.grade-scale details {
+    background-color: var(--bg-card);
+    border: none;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-out);
+}
+
+.grade-scale summary {
+    padding: 1.25rem;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: var(--bg-card);
+    color: var(--text-main);
+    list-style: none;
+}
+
+.grade-scale summary:hover {
+    color: var(--primary);
+}
+
+.scale-table {
+    width: 100%;
+}
+
+.scale-table th,
+.scale-table td {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(163, 177, 198, 0.2);
+}
+
+.scale-table tr:last-child td {
+    border-bottom: none;
+}
+
+/* Toast Messages */
+.message-toast {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    padding: 1.25rem 2rem;
+    border-radius: var(--radius-lg);
+    font-weight: 600;
+    z-index: 1000;
+    box-shadow: var(--shadow-out);
+    animation: slideIn 0.3s ease-out;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--bg-card);
+    color: var(--text-main);
+    border: none;
+}
+
+.message-toast.success {
+    color: var(--success);
+    border-left: 4px solid var(--success);
+}
+
+.message-toast.error {
+    color: var(--danger);
+    border-left: 4px solid var(--danger);
+}
+
+.message-toast.info {
+    color: var(--info);
+    border-left: 4px solid var(--info);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .control-panel {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 1.5rem;
+    }
+
+    .import-section {
+        width: 100%;
+    }
+
+    .file-controls {
+        flex-direction: column;
+    }
+
+    .file-controls button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .prediction-toggle-wrapper {
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 1.5rem;
+        border-top: 1px solid rgba(163, 177, 198, 0.2);
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Mobile Table Optimization */
+    .table-container {
+        padding: 0.5rem;
+        overflow-x: hidden;
+    }
+
+    table {
+        font-size: 0.85rem;
+    }
+
+    th,
+    td {
+        padding: 0.75rem 0.5rem;
+    }
+
+    /* Hide unwanted columns on mobile */
+    /* 
+       1: STT
+       2: Mã MH
+       3: Tên môn học (KEEP)
+       4: Số tín chỉ
+       5: Điểm thi
+       6: Điểm TK (10) (KEEP)
+       7: Điểm TK (4)
+       8: Điểm TK (C)
+       9: Kết quả (KEEP)
+       10: Chi tiết
+    */
+    th:nth-child(1),
+    td:nth-child(1),
+    th:nth-child(2),
+    td:nth-child(2),
+    th:nth-child(4),
+    td:nth-child(4),
+    th:nth-child(5),
+    td:nth-child(5),
+    th:nth-child(7),
+    td:nth-child(7),
+    th:nth-child(8),
+    td:nth-child(8),
+    th:nth-child(10),
+    td:nth-child(10) {
+        display: none;
+    }
+
+    /* Adjust remaining columns */
+    th:nth-child(3),
+    td:nth-child(3) {
+        width: 50%;
+    }
+
+    th:nth-child(6),
+    td:nth-child(6) {
+        width: 25%;
+        text-align: center;
+    }
+
+    th:nth-child(9),
+    td:nth-child(9) {
+        width: 25%;
+        text-align: center;
     }
 }
