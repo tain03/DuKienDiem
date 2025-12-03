@@ -61,3 +61,6 @@ build/
 # Personal data files (if any)
 personal-scores.json
 my-scores.json
+
+.agent
+.shared
