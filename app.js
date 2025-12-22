@@ -1001,11 +1001,11 @@ function handleFileImport(event, type) {
     if (!file) return;
 
     // Check file type
-    const validTypes = ['.js', '.json'];
+    const validTypes = ['.js', '.json', '.txt'];
     const fileExtension = '.' + file.name.split('.').pop().toLowerCase();
 
     if (!validTypes.includes(fileExtension)) {
-        showMessage('❌ Chỉ hỗ trợ file .js và .json', 'error');
+        showMessage('❌ Chỉ hỗ trợ file .js, .json và .txt', 'error');
         return;
     }
 
