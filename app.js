@@ -654,60 +654,91 @@ function convertToLetterGrade(score) {
 
 // Update overall GPA
 function updateOverallGPA() {
-    let totalCreditsForGPA = 0;  // Tín chỉ để tính GPA (có điểm)
-    let totalPoints10 = 0;
-    let totalPoints4 = 0;
-    let passedCredits = 0;       // Tín chỉ đạt (điểm >= 4.0)
+    // Map to store the best result for each subject code
+    // Key: ma_mon, Value: { credits, score10, score4, isPassed }
+    const bestSubjects = new Map();
 
+    // Helper to process a subject
+    const processSubject = (subject, isPredicted = false) => {
+        // Skip if no score
+        if (!subject.diem_tk) return;
+        
+        // For studied subjects, respect the ignore flag
+        if (!isPredicted && subject.khong_tinh_diem_tbtl !== 0) return;
+
+        const code = subject.ma_mon;
+        const credits = parseInt(subject.so_tin_chi || 0);
+        const score10 = parseFloat(subject.diem_tk);
+        
+        // Use existing 4-scale score for studied, calculate for predicted
+        let score4;
+        if (isPredicted) {
+            score4 = convertTo4Scale(score10);
+        } else {
+            score4 = parseFloat(subject.diem_tk_so);
+        }
+
+        // Current best for this subject
+        const currentBest = bestSubjects.get(code);
+
+        // Decide if we should update (keep highest score)
+        let shouldUpdate = false;
+        if (!currentBest) {
+            shouldUpdate = true;
+        } else {
+             if (score10 > currentBest.score10) {
+                 shouldUpdate = true;
+             }
+        }
+
+        if (shouldUpdate) {
+            bestSubjects.set(code, {
+                credits: credits,
+                score10: score10,
+                score4: score4,
+                isPassed: score10 >= 4.0
+            });
+        }
+    };
+
+    // 1. Process Studied Subjects
     if (scoresData && scoresData.data && scoresData.data.ds_diem_hocky) {
         scoresData.data.ds_diem_hocky.forEach(semester => {
             if (semester.ds_diem_mon_hoc) {
                 semester.ds_diem_mon_hoc.forEach(subject => {
-                    // Chỉ tính GPA cho môn có điểm và không bị loại trừ
-                    if (subject.diem_tk && subject.khong_tinh_diem_tbtl === 0) {
-                        const credits = parseInt(subject.so_tin_chi);
-                        const score10 = parseFloat(subject.diem_tk);
-                        const score4 = parseFloat(subject.diem_tk_so);
+                     processSubject(subject, false);
+                });
+            }
+        });
+    }
 
-                        // Tín chỉ để tính GPA
-                        totalCreditsForGPA += credits;
-                        totalPoints10 += score10 * credits;
-                        totalPoints4 += score4 * credits;
-
-                        // Tín chỉ đạt (điểm >= 4.0)
-                        if (score10 >= 4.0) {
-                            passedCredits += credits;
-                        }
+    // 2. Process Predicted Future Subjects
+    if (ctdtData && ctdtData.data && ctdtData.data.ds_CTDT_hocky) {
+        ctdtData.data.ds_CTDT_hocky.forEach(semester => {
+            if (semester.ds_CTDT_mon_hoc) {
+                semester.ds_CTDT_mon_hoc.forEach(subject => {
+                    // Only count future subjects that have been predicted
+                    if (subject.isPredicted && subject.diem_tk) {
+                         processSubject(subject, true);
                     }
                 });
             }
         });
     }
 
-    // Add predicted future subjects to GPA calculation
-    if (ctdtData && ctdtData.data && ctdtData.data.ds_CTDT_hocky) {
-        ctdtData.data.ds_CTDT_hocky.forEach(semester => {
-            if (semester.ds_CTDT_mon_hoc) {
-                semester.ds_CTDT_mon_hoc.forEach(subject => {
-                    // Only count future subjects that have been predicted
-                    if ((!subject.mon_da_hoc || subject.mon_da_hoc === '') &&
-                        subject.isPredicted && subject.diem_tk) {
-                        const credits = parseInt(subject.so_tin_chi || 0);
-                        const score10 = parseFloat(subject.diem_tk);
-                        const score4 = convertTo4Scale(score10);
+    // 3. Calculate Totals
+    let totalCreditsForGPA = 0;
+    let totalPoints10 = 0;
+    let totalPoints4 = 0;
+    let passedCredits = 0;
 
-                        totalCreditsForGPA += credits;
-                        totalPoints10 += score10 * credits;
-                        totalPoints4 += score4 * credits;
-
-                        // Count as passed if >= 4.0
-                        if (score10 >= 4.0) {
-                            passedCredits += credits;
-                        }
-                    }
-                });
-            }
-        });
+    for (const item of bestSubjects.values()) {
+        totalCreditsForGPA += item.credits;
+        totalPoints10 += item.score10 * item.credits;
+        totalPoints4 += item.score4 * item.credits;
+        if (item.isPassed) {
+            passedCredits += item.credits;
+        }
     }
 
     const gpa10 = totalCreditsForGPA > 0 ? (totalPoints10 / totalCreditsForGPA).toFixed(2) : '0.00';
